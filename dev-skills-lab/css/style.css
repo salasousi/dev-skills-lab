@@ -1,0 +1,34 @@
+#container, #skillList, form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.jumbotron{
+    background-color:hsl(111deg 44% 63%);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25%;
+    color: white;
+}
+
+#skillList{
+    color: hsl(39deg 100% 52%);
+}
+ul{
+    list-style-type: " x ";
+}
+
+input{
+    background-color: white;
+    color: hsl(111deg 44% 63%);
+    border-color: hsl(111deg 44% 63%);
+    height: 30px;
+}
+
+input[type=text] {
+    border-color: hsl(111deg 44% 63%);
+    -webkit-border-radius: 5px;
+
+  }
